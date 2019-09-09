@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(185, 162, 135)
+}
+
 .jumbotron {
     background-image: url("/assets/img/burger.jpg");
 
@@ -21,8 +25,8 @@
     color: rgb(255, 255, 255);
 }
 
-#lefthead {
-    background-color: #ffffff;
+#new_burger {
+    background-color:  #e9ddd3;
     color: rgb(196, 120, 58);
     text-align: center;
     font-size: 1.2em;
@@ -32,8 +36,8 @@
     float: right;
 }
 
-#righthead {
-    background-color: #f1f1f1;
+#devoured {
+    background-color: #e9ddd3;
     color: rgb(196, 120, 58);
     text-align: center;
     font-size: 1.2em;
@@ -49,7 +53,7 @@ p {
     color: rgb(196, 120, 58);
 }
 
-.btn {
+/* .btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -69,4 +73,15 @@ p {
     background-image: none;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 4px;
+} */
+
+
+
+#newburger {
+    width: 250px;
+    height: 34px;
+    align-self: center;
+    border-radius: 2px;
+    color: rgb(196, 120, 58);
 }
+

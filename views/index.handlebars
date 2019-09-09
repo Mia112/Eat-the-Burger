@@ -4,8 +4,7 @@
     <div class="jumbotron">
         <h1 id="color-override">Welcome To The Burger Spot</h1>
         <p id="color-override">Create your favorite Burger.</p>
-        <br>
-        <h2 id="color-override">Make a Burger</h2>
+    
         <panel>
             <form class="create-form">
                 <div class="form-group">
@@ -20,9 +19,9 @@
 
     <div class="row">
         <!-- Undevoured Burgers -->
-        <div class="col-sm-6">
+        <div id="add-burger" class="col-sm-6">
             <div class="panel panel-default">
-                <div class="panel-heading" id="lefthead"><strong>New Burgers</strong></div>
+                <div class="panel-heading" id="new_burger"><strong>New Burgers</strong></div>
                 <div class="panel-body">
                     <ul>
                         {{#each burgers}}
@@ -39,7 +38,7 @@
         <!-- Devoured Burgers -->
         <div class="col-sm-6">
             <div class="panel panel-default">
-                <div class="panel-heading" id="righthead"><strong>Devoured Burgers</strong></div>
+                <div class="panel-heading" id="devoured"><strong>Devoured Burgers</strong></div>
                 <div class="panel-body">
                     <ul>
                         {{#each burgers}}
