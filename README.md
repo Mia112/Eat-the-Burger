@@ -14,5 +14,5 @@
 * handlebars
 * Heroku
 
-[Visit Friend Finder on Heroku](https://lit-basin-31288.herokuapp.com/)
+[Click to visit site](https://lit-basin-31288.herokuapp.com/)
 
