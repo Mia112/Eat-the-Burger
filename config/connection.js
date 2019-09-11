@@ -5,12 +5,13 @@ if (process.env.JAWSDB_URL) {
 } else {
 var connection = mysql.createConnection({
     host: "localhost",
-    port: 3306,
     user: "root",
     password: "mia1120",
     database: "burgers_db"
     
 });
+
+var PORT = process.env.PORT || 8080;
 };
 // Connect to the database
 connection.connect(function(err) {
