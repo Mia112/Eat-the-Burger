@@ -1,6 +1,5 @@
 # Eat-the-Burger
 
-
 ### Technologies:
 * Node.js
 * Express js framework
